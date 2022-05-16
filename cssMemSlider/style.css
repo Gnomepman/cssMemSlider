@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* background-color: grey; */
+    flex-direction: column;
+}
+
+.navigation {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input {
+    display: none;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.slide {
+    width: 25%;
+    transition: 1s;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 500px;
+}
+
+.slider {
+    border-radius: 5px;
+    width: 800px;
+    /* height: 500px; */
+}
+
+label {
+    /* padding: 1px; */
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: solid 2px rgb(103, 137, 137);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .6s;
+}
+
+label:hover {
+    background: rgb(194, 193, 208);
+}
+
